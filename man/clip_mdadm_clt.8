@@ -1,0 +1,34 @@
+.TH CLIP_MDADM_CLT 8 "AUGUST 2007" Linux "User Manuals"
+.SH NAME
+clip-mdadm-client \- Clip RAID soft administration client.
+.SH SYNOPSIS
+.B mdadmclt
+.I action
+.SH DESCRIPTION
+.B mdadmclt
+performs RAID soft operations depending on the 
+.I action
+parameter.
+.PP
+
+.SH MANDATORY PARAMETERS
+.I action
+can have the following values :
+.PP
+\-
+.BR sdc
+This should be called when one disk has been removed from the bay and
+another one has been inserted without reboot.
+.PP
+\-
+.BR sdb
+This should be called when machine has been rebooted before the new disk
+has been inserted.
+
+.SH DIAGNOSTICS
+.B mdadmclt
+return -1 if an error occured, 0 otherwise.
+.SH AUTHORS
+EADS Defence And Security Systems
+.SH SEE ALSO
+.BR clip_mdadm (8)

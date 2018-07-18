@@ -1,0 +1,11 @@
+# CLIP ChangeLog for app-clip/clip-mdadm-clt
+
+  27 Nov 2015; Yves-Alexis Perez <clipos@ssi.gouv.fr>
+  clip-mdadm-clt-1.0.ebuild:
+  Add (masked) amd64 keyword.
+
+*clip-mdadm-clt-1.0 (19 Sep 2007)
+
+  19 Sep 2007; EADS D&S <clipos@ssi.gouv.fr>
+  +clip-mdadm-clt-1.0.ebuild:
+  Initial import.
